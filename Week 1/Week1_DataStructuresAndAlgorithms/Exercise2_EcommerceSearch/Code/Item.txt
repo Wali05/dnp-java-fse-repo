@@ -1,0 +1,20 @@
+// Item.java
+public class Item {
+    private int id;
+    private String name;
+    private String type;
+
+    public Item(int id, String name, String type) {
+        this.id = id;
+        this.name = name;
+        this.type = type;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String toString() {
+        return "[" + id + " | " + name + " | " + type + "]";
+    }
+}
