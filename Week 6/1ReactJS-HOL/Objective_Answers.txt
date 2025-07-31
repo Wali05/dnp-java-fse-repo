@@ -1,0 +1,50 @@
+1) SPA -> 
+Single page application is a Web application that changes and updates their content dynamically without refreshing the entire page. 
+
+2) React and its Working -> 
+React is a javascript library that is used to build User Interface(UI).
+React works based on a component based architecture where UI is broken down into reusable components. React uses a virtual DOM a abstract in-memory representation of the real DOM to efficiently manage updates. When a component's state or props changes react updates the virtual DOM first compares it with the previous version using a diffing algorithm and then applies only the necessary changes to the real DOM it called reconcilation.
+
+3) Difference bBetween SPA and MPA->
+SPA:
+Loads a single HTML page and updates content dynamically without reloading.
+Uses client-side routing.
+Provides a smooth, app-like user experience.
+Built using front-end frameworks like React, Angular, or Vue.
+Better for highly interactive apps like facebook, insta.
+
+MPA:
+Loads a new HTML page from the server for each user action.
+Slower navigation due to full page reloads.
+Uses server-side routing.
+More traditional, website-like navigation.
+Built using server-side languages (e.g., PHP, ASP.NET, JSP).
+
+4) Pros & Cons of Single-Page Application (SPA)->
+Pros:
+Fast and Smooth Navigation
+Improved User Experience
+Efficient Data Handling
+Reusable Components
+Cons:
+Harder for search engines to index without extra setup.
+Initial Load TimeNeeds manual handling of navigation and history.
+
+5) Explain about React->
+React is a JavaScript library developed by Facebook for building user interfaces to build single-page application. It allows to create reusable UI components and efficiently update the view when data changes. React follows a component-based architecture and uses a virtual DOM for fast and efficient rendering. It supports both class-based and functional components.
+
+6) Virtual DOM
+The Virtual DOM is a abstracted version of the real DOM used by React to improve performance. When the state of a component changes react:
+Updates the virtual DOM.
+Compares the new virtual DOM with the previous one using a diffing algorithm.
+Identifies the minimal changes required.
+Applies only those changes to the real DOM.
+
+7) Features of React
+Component-Based: UI is broken into reusable components.
+Virtual DOM: Boosts performance by reducing direct DOM manipulation.
+JSX: Allows writing HTML-like syntax in JavaScript.
+Unidirectional Data Flow: Data flows from parent to child using props.
+Hooks (Functional Enhancements): Enables state and lifecycle features in functional components (e.g., useState, useEffect).
+Performance Optimizations: React optimizes rendering using diffing and reconciliation.
+

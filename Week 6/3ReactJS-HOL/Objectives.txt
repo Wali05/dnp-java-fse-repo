@@ -1,0 +1,23 @@
+1.React Components->
+React components are the building blocks of React application. Each component represents a part of the UI like button, form, or header. Components are reusabl, independent and can be combined to build complex UI. They can receive input through props and manage internal data using state.
+
+2.Differences Between Components and JavaScript Functions->
+A JavaScript function performs a specific task or returns a value based on logic.
+A React component is specifically designed to return a UI layout and integrate with the React rendering process.
+React components can handle things like rendering, managing user input, and reacting to changes whereas JavaScript functions cannot interact with the UI in this way.
+
+3. Types of Components->
+Class Components – Use ES6 class syntax and can manage state and lifecycle methods.
+Function Components – Use plain JavaScript functions they are simpler and modern React allows them to manage state and side effects using hooks.
+
+4. Class Component->
+A class component is a component written using JavaScript classes. It gives you access to powerful features like managing local **state** and handling **lifecycle methods** (e.g., running code when the component mounts or updates). It's more structured but slightly heavier than function components.
+
+5.Function Component->
+A function component is a simpler way to create a component. It’s just a function that returns what should appear on the screen. Initially, function components were used for simple UI only, but with **hooks**, they can now also manage state and lifecycle features, making them the preferred way to write React components today.
+
+6.Component Constructor->
+In class components, the constructor is a special method that gets called when the component is first created. It’s mainly used to initialize the component’s state and to set up any initial logic or event bindings. It's not required in function components, which use hooks instead.
+
+7. render() Function.->
+The render() function is a key part of class components. It tells React what to display on the screen. Whenever a component’s data changes render() function is called again to update the UI. 
